@@ -9,6 +9,7 @@
 @license      none
 @preprocessor stylus
 ==/UserStyle== */
+@-moz-document url-prefix("https://conworkshop.com") {
 body {
     background-color: #151819;
     color: #D6D7D8;
@@ -631,4 +632,5 @@ div.list.collapse.info_only:hover{
 .spoil:hover {
     background-color: inherit;
     color: #D6D7D8 !important;
+}
 }
