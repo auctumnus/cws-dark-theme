@@ -9,6 +9,7 @@
 @license      none
 @preprocessor stylus
 */
+@-moz-document url-prefix("https://conworkshop.com", "http://conworkshop.com") {
 /*search*/
 #green > div:nth-child(3) > span.qf_container.higher {
     background-color: #74C365 !important;
@@ -260,4 +261,5 @@
 #pink > div.main_container > div:nth-child(5) {
      background-color: #474747;
      color: #d6d7d8;
+}
 }
