@@ -12,7 +12,7 @@
 @-moz-document url-prefix("https://conworkshop.com"),
                url-prefix("http://conworkshop.com"),
                url-prefix("https://planet.conworkshop.com"),
-               url-prefix("http://planet.conworkshop.com"),{
+               url-prefix("http://planet.conworkshop.com") {
 /*search*/
 #green > div:nth-child(3) > span.qf_container.higher {
     background-color: #74C365 !important;
