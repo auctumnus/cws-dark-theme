@@ -1,0 +1,252 @@
+/*search*/
+#green > div:nth-child(3) > span.qf_container.higher {
+    background-color: #74C365 !important;
+}
+/*orth*/
+#green > div:nth-child(3) > span:nth-child(3) {
+    background-color: #E07D10 !important;
+}
+/*xsampa -> ipa*/
+#green > div:nth-child(3) > span:nth-child(4){
+    background-color: #F0CA00 !important;
+}
+/*pronunciation guesser*/
+#green > div:nth-child(3) > span:nth-child(5){
+    background-color: #9E4EAE !important;
+}
+/*notepad*/
+#green > div:nth-child(3) > span:nth-child(6){
+    background-color: #00A7C7 !important;
+}
+/*notepad*/
+#qf4_span{
+    background-color: #00A7C7 !important;
+}
+/*karma*/
+#green > div:nth-child(3) > span:nth-child(8){
+    background-color: #EB9CBB !important;
+}
+/*scroll to top*/
+#green > div:nth-child(3) > span:nth-child(9){
+    background-color: #CE2029 !important;
+}
+/*search*/
+#yellow > div:nth-child(3) > span.qf_container.higher {
+    background-color: #74C365 !important;
+}
+/*orth*/
+#yellow > div:nth-child(3) > span:nth-child(3) {
+    background-color: #E07D10 !important;
+}
+/*xsampa -> ipa*/
+#yellow > div:nth-child(3) > span:nth-child(4){
+    background-color: #F0CA00 !important;
+}
+/*pronunciation guesser*/
+#yellow > div:nth-child(3) > span:nth-child(5){
+    background-color: #9E4EAE !important;
+}
+/*notepad*/
+#yellow > div:nth-child(3) > span:nth-child(6){
+    background-color: #00A7C7 !important;
+}
+/*notepad*/
+#qf4_span{
+    background-color: #00A7C7 !important;
+}
+/*karma*/
+#yellow > div:nth-child(3) > span:nth-child(8){
+    background-color: #EB9CBB !important;
+}
+/*scroll to top*/
+#yellow > div:nth-child(3) > span:nth-child(9){
+    background-color: #CE2029 !important;
+}
+/*search*/
+#blue > div:nth-child(3) > span.qf_container.higher {
+    background-color: #74C365 !important;
+}
+/*orth*/
+#blue > div:nth-child(3) > span:nth-child(3) {
+    background-color: #E07D10 !important;
+}
+/*xsampa -> ipa*/
+#blue > div:nth-child(3) > span:nth-child(4){
+    background-color: #F0CA00 !important;
+}
+/*pronunciation guesser*/
+#blue > div:nth-child(3) > span:nth-child(5){
+    background-color: #9E4EAE !important;
+}
+/*notepad*/
+#blue > div:nth-child(3) > span:nth-child(6){
+    background-color: #00A7C7 !important;
+}
+/*notepad*/
+#qf4_span{
+    background-color: #00A7C7 !important;
+}
+/*karma*/
+#blue > div:nth-child(3) > span:nth-child(8){
+    background-color: #EB9CBB !important;
+}
+/*scroll to top*/
+#blue > div:nth-child(3) > span:nth-child(9){
+    background-color: #CE2029 !important;
+}
+/*search*/
+#orange > div:nth-child(3) > span.qf_container.higher {
+    background-color: #74C365 !important;
+}
+/*orth*/
+#orange > div:nth-child(3) > span:nth-child(3) {
+    background-color: #E07D10 !important;
+}
+/*xsampa -> ipa*/
+#orange > div:nth-child(3) > span:nth-child(4){
+    background-color: #F0CA00 !important;
+}
+/*pronunciation guesser*/
+#orange > div:nth-child(3) > span:nth-child(5){
+    background-color: #9E4EAE !important;
+}
+/*notepad*/
+#orange > div:nth-child(3) > span:nth-child(6){
+    background-color: #00A7C7 !important;
+}
+/*notepad*/
+#qf4_span{
+    background-color: #00A7C7 !important;
+}
+/*karma*/
+#orange > div:nth-child(3) > span:nth-child(8){
+    background-color: #EB9CBB !important;
+}
+/*scroll to top*/
+#orange > div:nth-child(3) > span:nth-child(9){
+    background-color: #CE2029 !important;
+}
+/*search*/
+#grey > div:nth-child(3) > span.qf_container.higher {
+    background-color: #74C365 !important;
+}
+/*orth*/
+#grey > div:nth-child(3) > span:nth-child(3) {
+    background-color: #E07D10 !important;
+}
+/*xsampa -> ipa*/
+#grey > div:nth-child(3) > span:nth-child(4){
+    background-color: #F0CA00 !important;
+}
+/*pronunciation guesser*/
+#grey > div:nth-child(3) > span:nth-child(5){
+    background-color: #9E4EAE !important;
+}
+/*notepad*/
+#grey > div:nth-child(3) > span:nth-child(6){
+    background-color: #00A7C7 !important;
+}
+/*notepad*/
+#qf4_span{
+    background-color: #00A7C7 !important;
+}
+/*karma*/
+#grey > div:nth-child(3) > span:nth-child(8){
+    background-color: #EB9CBB !important;
+}
+/*scroll to top*/
+#grey > div:nth-child(3) > span:nth-child(9){
+    background-color: #CE2029 !important;
+}
+/*search*/
+#red > div:nth-child(3) > span.qf_container.higher {
+    background-color: #74C365 !important;
+}
+/*orth*/
+#red > div:nth-child(3) > span:nth-child(3) {
+    background-color: #E07D10 !important;
+}
+/*xsampa -> ipa*/
+#red > div:nth-child(3) > span:nth-child(4){
+    background-color: #F0CA00 !important;
+}
+/*pronunciation guesser*/
+#red > div:nth-child(3) > span:nth-child(5){
+    background-color: #9E4EAE !important;
+}
+/*notepad*/
+#red > div:nth-child(3) > span:nth-child(6){
+    background-color: #00A7C7 !important;
+}
+/*notepad*/
+#qf4_span{
+    background-color: #00A7C7 !important;
+}
+/*karma*/
+#red > div:nth-child(3) > span:nth-child(8){
+    background-color: #EB9CBB !important;
+}
+/*scroll to top*/
+#red > div:nth-child(3) > span:nth-child(9){
+    background-color: #CE2029 !important;
+}
+/*search*/
+#pink > div:nth-child(3) > span.qf_container.higher {
+    background-color: #74C365 !important;
+}
+/*orth*/
+#pink > div:nth-child(3) > span:nth-child(3) {
+    background-color: #E07D10 !important;
+}
+/*xsampa -> ipa*/
+#pink > div:nth-child(3) > span:nth-child(4){
+    background-color: #F0CA00 !important;
+}
+/*pronunciation guesser*/
+#pink > div:nth-child(3) > span:nth-child(5){
+    background-color: #9E4EAE !important;
+}
+/*notepad*/
+#pink > div:nth-child(3) > span:nth-child(6){
+    background-color: #00A7C7 !important;
+}
+/*notepad*/
+#qf4_span{
+    background-color: #00A7C7 !important;
+}
+/*karma*/
+#pink > div:nth-child(3) > span:nth-child(8){
+    background-color: #EB9CBB !important;
+}
+/*scroll to top*/
+#pink > div:nth-child(3) > span:nth-child(9){
+    background-color: #CE2029 !important;
+}
+#green > div.main_container > div:nth-child(5) {
+     background-color: #474747;
+     color: #d6d7d8;
+}
+#yellow > div.main_container > div:nth-child(5) {
+     background-color: #474747;
+     color: #d6d7d8;
+}
+#blue > div.main_container > div:nth-child(5) {
+     background-color: #474747;
+     color: #d6d7d8;
+}
+#orange > div.main_container > div:nth-child(5) {
+     background-color: #474747;
+     color: #d6d7d8;
+}
+#grey > div.main_container > div:nth-child(5) {
+     background-color: #474747;
+     color: #d6d7d8;
+}
+#red > div.main_container > div:nth-child(5) {
+     background-color: #474747;
+     color: #d6d7d8;
+}
+#pink > div.main_container > div:nth-child(5) {
+     background-color: #474747;
+     color: #d6d7d8;
+}
