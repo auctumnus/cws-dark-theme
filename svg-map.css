@@ -1,0 +1,16 @@
+.country_info_txt {
+
+    background-color: #2D3235;
+
+}
+#left-view div, #left-edit div {
+                padding: 5px;
+                border-bottom: 1px solid #ccc;
+                color: #d6d7d8;
+    }
+            a{ color: #d6d7d8; text-decoration: none; }
+            a:visited{ color: #d6d7d8; }
+            a:hover{ color: #fff; } 
+#mapkey > div {
+    background-color: #999 !important;
+}
