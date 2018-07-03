@@ -1,6 +1,13 @@
 # cws-dark-theme
 Unofficial dark theme for ConWorkShop
-## install instructions
+## Automatic Install
+First, install the Stylus browser extension, as found in the first section in Manual Install.
+
+Then, click the badge below:
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/enae64/cws-dark-theme/master/style.user.css)
+
+## Manual Install
 First, install the Stylus browser extension:
 
 [Chrome extension](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/)
@@ -42,3 +49,14 @@ Finally, press Save.
 The style should now be in effect.
 
 ![image](https://i.imgur.com/1jQV2fG.png)
+
+## Optional Styles
+Optionally, you can install these additional styles. You can use the same process in the Manual Install, or you can use these badges below:
+
+Sidebar
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/enae64/cws-dark-theme/master/sidebar.user.css)
+
+SVG
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/enae64/cws-dark-theme/master/svg-map.user.css)
