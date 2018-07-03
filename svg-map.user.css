@@ -9,6 +9,7 @@
 @license      none
 @preprocessor stylus
 */
+@-moz-document url-prefix("https://planet.conworkshop.com/cwsp_view_svg.php") {
 .country_info_txt {
 
     background-color: #2D3235;
@@ -24,4 +25,5 @@
             a:hover{ color: #fff; } 
 #mapkey > div {
     background-color: #999 !important;
+}
 }
