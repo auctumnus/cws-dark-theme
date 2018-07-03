@@ -40,3 +40,5 @@ Finally, press Save.
 ![image](https://i.imgur.com/AjfZFtc.png)
 
 The style should now be in effect.
+
+![image](https://i.imgur.com/1jQV2fG.png)
