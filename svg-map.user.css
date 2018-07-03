@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         ConWorkShop Dark - SVG CSS
+@description  Dark theme for CWS.
+@namespace    https://github.com/enae64
+@version      0.1.0
+@author       @auctumnus on cws; https://github.com/enae64
+@homepageURL  https://github.com/enae64/cws-dark-theme
+@supportURL   https://github.com/enae64/cws-dark-theme/issues
+@license      none
+@preprocessor stylus
+*/
 .country_info_txt {
 
     background-color: #2D3235;
