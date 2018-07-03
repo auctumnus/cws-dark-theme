@@ -1,0 +1,623 @@
+body {
+    background-color: #151819;
+    color: #D6D7D8;
+}
+div.main_container{
+    background-color: #2D3235;
+}
+div.content {
+    margin: 15px 10px 10px;
+    color: #D6D7D8;
+}
+.nfuptit {
+    color: #696F72;
+}
+.nfcont {
+    color: #D6D7D8 !important;
+}
+.gall_hover {
+    border: 1px solid #696F72;
+}
+.new_feed_update.future {
+    background-color: #414649;
+    border-bottom: 1px solid #696F72;
+}
+div.avatar img, img.avatar {
+    border: 1px solid #696F72;
+}
+span.faux, span.half_faux {
+    background-color: #2D3235 !important;
+    border: 1px solid #151819 !important;
+    color: #D6D7D8 !important;
+}
+.post.boards {
+    border: 1px solid #151819;
+    box-shadow: #151819 1px 1px 2px;
+    padding: 10px;
+}
+div.title {
+    color: #D6D7D8;
+    background: #696F72;
+    text-shadow: 0 1px 0 #555;
+}
+/*div.main_container{
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+}*/
+.faux .quote, .quote, .article_menu {
+    background-color: #474747;
+    border-left: 3px solid #A3A6A8;
+}
+form div input, form div select, .form div input, .form div select, .form div textarea, form div textarea, .fta, input, select, textarea {
+    background-color: #474747;
+}
+.cwsm_btn {
+    background-color: #A3A6A8;
+    color: #FFF;
+}
+.list {
+    border-bottom: 1px solid #696F72;
+    color: #D6D7D8;
+}
+span.article_tag {
+    background-color: #696F72;
+    color: #414649;
+}
+.node {
+    background-color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+    border: 1px solid #999;
+    width: 100%;
+}
+/*tables*/
+td.green { background-color: #172614 !important; color: #85E074; }
+td.blue { background-color: #002026 !important; color: #00BCE0; }
+td.red { background-color: #260608 !important; color: #E0232D; }
+td.yellow { background-color: #262000 !important; color: #FAD300; }
+td.cyan { background-color: #001E26 !important; color: #00C3FA; }
+td.orange { background-color: #261503 !important; color: #FA8B12; }
+td.purple { background-color: #231126 !important; color: #CC65E0; }
+td.grey, td.gray, td.blank { color: #E0E0E0 !important; background-color: #262626; }
+ 
+th.green { background-color: #172614 !important; color: #85E074; }
+th.blue { background-color: #002026 !important; color: #00BCE0; }
+th.red { background-color: #260608 !important; color: #E0232D; }
+th.yellow { background-color: #262000 !important; color: #FAD300; }
+th.cyan { background-color: #001E26 !important; color: #00C3FA; }
+th.orange { background-color: #261503 !important; color: #FA8B12; }
+th.purple { background-color: #231126 !important; color: #CC65E0; }
+th.grey, th.gray, th.blank { color: #E0E0E0 !important; background-color: #262626; }
+ 
+table{
+    border: 1px solid #6F6F6F;
+    border-right: none;
+ 
+    margin: 5px;
+    background-color: #272727;
+    padding: 0px !important;
+ 
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+td{
+    padding: 5px;
+    background-color: #272727 !important;
+   
+    border-bottom: 1px solid #6F6F6F;
+    border-right: 1px solid #6F6F6F;
+    min-width: 15px;
+}
+th{
+    display: table-cell;
+    padding: 5px;
+    font-weight: bold;
+ 
+    background-color: #272727;
+    border-bottom: 1px solid #6F6F6F;
+    border-right: 1px solid #6F6F6F;
+}
+tr{
+    background-color: #333;
+}
+ 
+/* ----------------- BUTTONS ------------------- */
+ 
+ 
+.button,.button{
+    border: none !important;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    border-radius: 1px;
+    color: #ccc;
+    background-color: #eee;
+    transition:.1s;
+}
+div.list .button{ font-size: 1.0em; }
+ 
+/* CWSm form buttons */
+.button#bb{ color: #333; font-size: 0.8em; }
+ 
+/* red */
+a.fail, a.red, label.red{ color: #2D3235; background-color: #ED3740; /* #c33 */ }
+a.fail:hover, a.red:hover, label.red:hover{ background-color: #CE2029; }
+ 
+/* orange */
+a.alert, a.orange{ color: #2D3235; background-color: #FA974B; /* #ea3 */ }
+a.alert:hover, a.orange:hover{ background-color: #E07D10; }
+ 
+/* yellow */
+a.pending, a.yellow{ color: #2D3235; background-color: #FFE247; /* #cc3 */ }
+a.pending:hover, a.yellow:hover{ background-color: #F0CA00; }
+ 
+/* green */
+a.pass, a.green, label.green{ color: #2D3235; background-color: #9BD98F; /* #3c3 */ }
+a.pass:hover, a.green:hover, label.green:hover{ background-color: #74C365; }
+input.pass[readonly], select.pass[disabled], input.green[readonly]{ color: #D6D7D8 !important; }
+ 
+/* blue */
+a.idle, a.blue{ color: #2D3235; background-color: #2ACCC5; /* #3cc */ }
+a.idle:hover, a.blue:hover{ background-color: #00A7C7; }
+ 
+/* pink */
+a.match, a.pink{ color: #2D3235; background-color: #F7BAD0; /* #d3d */ }
+a.match:hover, a.pink:hover{ background-color: #EB9CBB; }
+ 
+/* grey */
+a.grey{ color: #2D3235; background-color: #BFBFBF; /* #d3d */ }
+a.grey:hover{ background-color: #989898; }
+ 
+/* input fancy styles */
+body#red input:focus, body#red textarea:focus, .bb_red { background-color: #ED3740; color: #000 !important; }
+body#orange input:focus, body#orange textarea:focus, .bb_orange { background-color: #FA974B; color: #000 !important; }
+body#yellow input:focus, body#yellow textarea:focus, .bb_yellow { background-color: #FFE247; color: #000 !important; }
+body#green input:focus, body#green textarea:focus, .bb_green { background-color: #9BD98F; color: #000 !important; }
+body#blue input:focus, body#blue textarea:focus, .bb_blue { background-color:  #2ACCC5; color: #000 !important; } /* 6cc */
+body#pink input:focus, body#pink textarea:focus, .bb_pink { background-color: #F7BAD0; color: #000 !important; }
+body#grey input:focus, body#grey textarea:focus, .bb_grey { background-color: #BFBFBF; color: #000 !important; }
+input:focus, textarea:focus, select:focus{ color: #333; }
+input{ text-indent: 20px; /*line-height: 1; (was causing issues in firefox, and its removal seems to have no effect on chrome so it should be ok to comment this out without problem) */ background-image: url('../ico/input.png'); background-repeat: no-repeat; background-position: left 2px center; }
+table tr td select, table tr td input, table tr td textarea{ border: 1px solid white !important; }
+ 
+/* banners */
+.newban{ padding-top: 5px; padding-bottom: 5px; margin-top: 10px; margin-bottom: 10px; }
+.newban span#b {
+color: #2D3235;
+}
+ 
+/* green*/
+.newban.success{ background-color: #9BD98F; border-right: 3px solid #74C365; border-left: 3px solid #9BD98F; }
+.newban.success span#a span#aa { border: 3px solid #74C365; color: #74C365; }
+.newban.success span#b a{ color: #FFF; }
+ 
+/* red */
+.newban.error{ background-color: #ED3740; border-right: 3px solid #CE2029; border-left: 3px solid #CE2029; }
+.newban.error span#a span#aa { border: 3px solid #CE2029; color: #CE2029; }
+.newban.error span#b a{ color: #FFF; }
+ 
+/* yellow */
+.newban.warning{ background-color: #FFE247; border-right: 3px solid #F0CA00; border-left: 3px solid #F0CA00; }
+.newban.warning span#a span#aa { border: 3px solid #F0CA00; color: #F0CA00; }
+.newban.warning span#b a{ color: #FFF; }
+ 
+/* blue */
+.newban.information{ background-color: #2ACCC5; border-right: 3px solid #00A7C7; border-left: 3px solid #00A7C7; }
+.newban.information span#a span#aa { border: 3px solid #00A7C7; color: #00A7C7; }  
+.newban.information span#b a{ color: #2D3235; }
+ 
+/* purple */
+.newban.timer{ background-color: #C57BD4; border-right: 3px solid #9E4EAE; border-left: 3px solid #9E4EAE; }
+.newban.timer span#a span#aa { border: 3px solid #9E4EAE; color: #9E4EAE; }
+.newban.timer span#b a{ color: #FFF; }
+ 
+/* orange */
+.newban.timer{ background-color: #FA974B; border-right: 3px solid #E07D10; border-left: 3px solid #E07D10; }
+.newban.timer span#a span#aa { border: 3px solid #E07D10; color: #E07D10; }
+.newban.timer span#b a{ color: #FFF; }
+ 
+ 
+/* **************************************** COLOURS **************************************** */
+ 
+.list.green, .list.report.green, div.green{ border-left: 10px solid #9BD98F !important; color: #D6D7D8; background-color: #555 !important;}
+.list.red, .list.report.red, div.red{ border-left: 10px solid #ED3740;  color: #D6D7D8; background-color: #555 !important;}
+.list.yellow, .list.report.yellow, div.yellow{ border-left: 10px solid #FFE247; color: #D6D7D8; background-color: #555 !important;}
+.list.pink, .list.report.pink, div.pink{ border-left: 10px solid #F7BAD0; background-color: #555 !important;}
+.list.orange, .list.report.orange, div.orange{ border-left: 10px solid #FA974B; color: #D6D7D8;  background-color: #555 !important;}
+.list.blue, .list.report.blue, div.blue{ border-left: 10px solid #2ACCC5; color: #D6D7D8;  background-color: #555 !important;}
+.list.grey, .list.report.grey, div.grey{ border-left: 10px solid #999999; color: #D6D7D8;  background-color: #555 !important;}
+ 
+.list.green:hover, .list.report.green:hover, div.green:hover{ border-left: 10px solid #74C365 !important; color: #D6D7D8; background-color: #5f5f5f !important;}
+.list.red:hover, .list.report.red:hover, div.red:hover{ border-left: 10px solid #CE2029 !important; color: #D6D7D8; background-color: #5f5f5f !important;}
+.list.yellow:hover, .list.report.yellow:hover, div.yellow:hover{ border-left: 10px solid #F0CA00 !important; color: #D6D7D8; background-color: #5f5f5f !important;}
+.list.pink:hover, .list.report.pink:hover, div.pink:hover{ border-left: 10px solid #EB9CBB !important; color: #D6D7D8; background-color: #5f5f5f !important; }
+.list.orange:hover, .list.report.orange:hover, div.orange:hover{ border-left: 10px solid #E07D10 !important; color: #D6D7D8; background-color: #5f5f5f !important; }
+.list.blue:hover, .list.report.blue:hover, div.blue:hover{ border-left: 10px solid #00A7C7 !important; color: #D6D7D8; background-color: #5f5f5f !important; }
+.list.grey:hover, .list.report.grey:hover, div.grey:hover{ border-left: 10px solid #989898 !important; color: #D6D7D8; background-color: #5f5f5f !important; }
+ 
+#feed_post{ cursor: pointer; }
+/* #feed_post{ border: 1px solid #e1e1e1; !important; background-color: #f9f9f9; } */
+ 
+.feed_green_title{ color: #090 !important; }
+.feed_yellow_title{ color: #990 !important; }
+.feed_blue_title{ color: #099 !important; }
+.feed_orange_title{ color: #960 !important; }
+ 
+.fb, .standard, .tick, .cross{
+    padding: 5px;
+    text-align: center;
+    width: 20% !important;
+}
+ 
+span.const{
+    padding-top: 2px; padding-bottom: 2px;
+    border: none !important;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-transform:uppercase;
+    font-size: 0.8em;
+}
+ 
+/****** Lang status colours ********/
+.ls_X{ background-color: #474747; color: #FFFFFF !important; }
+.ls_H{ background-color: #aaa; color: #FFFFFF !important; }
+.ls_1{ background-color: #F0CA00; color: #FFFFFF !important; } /* new */
+.ls_2{ background-color: #E07D10; color: #FFFFFF !important; } /* progessing */
+.ls_3{ background-color: #74C365; color: #FFFFFF !important; } /* functional */
+.ls_4{ background-color: #00A7C7; color: #FFFFFF !important; } /* complete */
+.ls_X, .ls_H, .ls_1, .ls_2, .ls_3, .ls_4{
+    display: inline-block !important; padding: 2px 5px 2px 5px;
+    width: auto !important;
+    margin: 2px;
+}
+.ls_X:hover{
+    color: white;
+}
+a.ls_X:hover{
+    cursor: pointer;
+}
+span.article_tag a{
+    color: inherit !important;
+}
+span.article_tag:hover{
+    background-color: #999;
+    cursor: pointer;
+}
+ 
+/*//////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* button and header colours */
+ 
+/* GREY */
+a.me_grey, a.me_grey_l:hover, .mgrey{ background-color: #989898; color: #2D3235; }
+ 
+a.me_disabled{ background-color: #aaa; color: #2D3235; }
+a.me_grey_l { background-color: #BFBFBF; color: #2D3235; }
+ 
+/* GREEN (pass) */
+a.me_green, a.me_green_l:hover, .notify.green:hover, span.tick, .mgreen{ background-color: #74C365; color: #2D3235; }
+input.pass, select.pass, textarea.pass, input.pass:focus, input.green{ color: #2D3235; background-color: #414649 !important; }
+a.me_green_l, .notify.green, span.const.green{ background-color: #9BD98F; color: #2D3235; }
+ 
+/* RED (fail) */
+a.me_red, span.cross, .mred{ background-color: #CE2029; color: #2D3235; }
+input.fail, input.red, input.red:focus, select.fail, textarea.fail, input.fail:focus { color: #2D3235 !important; background-color: #414649 !important; }
+a.me_red_l, .notify.red, span.const.red {  background-color: #ED3740; color: #2D3235; }  
+ 
+/* PINK (match) */
+a.me_pink, .notify.pink:hover, a.me_pink_l:hover, .mpink{ background-color: #EB9CBB; color: #2D3235; }
+input.match, input.match:focus { color: #2D3235; background-color: #414649 !important;}
+a.me_pink_l, .notify.pink, span.const.pink{ background-color: #F7BAD0; color: #2D3235; }
+ 
+/* ORANGE (alert) */
+a.me_orange, a.me_orange_l:hover, .notify.orange:hover, span.standard, .morange{ background-color: #E07D10; color: #2D3235; }
+input.alert:focus{ color: #2D3235 !important; background-color: #414649 !important; }
+a.me_orange_l, .notify.orange, span.const.orange{ background-color: #FA974B; color: #2D3235; }
+ 
+/* BLUE (idle) */
+a.me_blue, a.me_blue_l:hover, .notify.blue:hover, span.fb, .mblue{ background-color: #00A7C7; color: #2D3235; }
+input.idle:focus, textarea.idle:focus { color: #2D3235; background-color: #414649 !important; }
+a.me_blue_l, .notify.blue, span.const.blue{ background-color: #2ACCC5; color: #2D3235; }
+ 
+/* YELLOW (pending) */
+a.me_yellow, a.me_yellow_l:hover, .notify.yellow:hover, .myellow{ background-color: #F0CA00; color: #2D3235; }
+input.pending, input.yellow, input.yellow:focus { color: #2D3235; background-color: #414649 !important; }
+a.me_yellow_l, .notify.yellow, span.const.yellow{ background-color: #FFE247; color: #2D3235; }
+ 
+input.yellow, input.green, input.red{
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;  
+}
+ 
+/*---------------------- CUSTOM SELECT DROPDOWN ------------------------*/
+form div span.flat_select{
+    font-size: 0.8em;  
+    width: 55%;
+    /*z-index: 1 !important;*/
+}
+form div.list span span.flat_select{
+    font-size: 1.0em;
+    width: 90%;
+}
+span.flat_select{
+    display: block;
+    cursor: pointer;
+    background-color: #eee;
+    color: #FFF !important;
+    width: 90%;
+    position: relative;
+    font-size: inherit;
+}
+span.flat_select p{
+    display: block;
+    margin: 0px;
+    padding: 5px;
+}
+span.flat_select a{
+    color: inherit !important;
+}
+span.flat_select span{
+    display: none !important;
+    background-color: #9ee;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    z-index: 999999 !important;
+}
+span.flat_select:hover{
+    background-color: #6cc;
+}
+span.flat_select:hover span{
+    display: block !important;
+    overflow-x: hidden;
+    z-index: 999999 !important;
+    max-height: 200px;
+}
+span.flat_select span label{
+    display: inline-block;
+    color: #666 !important;
+    padding: 2px;
+    width: 100% !important;
+    cursor: pointer;
+    font-size: inherit !important;
+}
+span.flat_select span label:hover{
+    background-color: #6cc !important;
+}
+span.flat_select span label input[checked] + span.flat_select span label{
+    background-color: red !important;
+}
+span.flat_select span label.flat_sel_head{
+    cursor: default;
+    background-color: #0dd !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+ 
+/* ------------ KARMA ------------- */
+.karma_up, .karma_dw, .karma_disabled{ 
+    color: #ccc;
+}
+.karma_up:hover, .karma_dw:hover, .karma_disabled:hover{ cursor: pointer; }
+.karma_up:hover, .karma_up.sel{
+    color: #8DE04A;
+}
+.karma_dw:hover, .karma_dw.sel{
+    color: #F45A49;
+}
+.karma_disabled:hover{
+    color: #aaa;
+}
+.karma_hidden .tag_text{
+    background-color: #999;
+    color: #d6d7d8;
+}
+ 
+/* fix for fields in tables */
+td select, td input, td select:focus, td input:focus, select, select:focus{
+    background-color: #414649 !important;
+    color: #d6d7d8 !important;
+}
+form div input, form div select, .form div input, .form div select, .form div textarea, form div textarea, .fta, input, select, textarea {
+    color: #D6D7D8;
+    background-color: #414649;
+}
+.list{
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    color: #D6D7D8;
+    text-decoration: none;
+    padding: 5px 5px 5px 20px;
+    cursor: pointer;
+    transition: .1s;
+}
+.list:hover{
+    color: #FFF;
+    border-bottom: 1px solid #ccc;
+}
+.list span input[type="checkbox"]{
+    border: 1px solid #999 !important;
+}
+input:focus, textarea:focus, select:focus {
+    color: #d6d7d8 !important;
+}
+input, textarea, select {
+    color: #d6d7d8 !important;
+}
+.ui-dropdownchecklist-selector-wrapper
+, .ui-widget.ui-dropdownchecklist-selector-wrapper {
+ 
+    background-color: #696F72;
+}
+.ui-dropdownchecklist-text {
+    color: #D6D7D8;
+}
+.ui-dropdownchecklist-item{
+    background-color: #696F72;
+}
+.ui-dropdownchecklist-item:hover,
+.ui-dropdownchecklist-item:hover .ui-dropdownchecklist-text{
+    background-color: #696F72;
+    color: #FFF !important;
+}
+label.collapse_top, div.collapse_top {
+    color: #D6D7D8;
+    background-color: #696F72;
+}
+label:focus, label:hover{
+    color: #888;
+}
+div.list.collapse.info_only{
+    color: #D6D7D8; background-color: #696F72;
+    border-top: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #666;
+}
+div.list.collapse.info_only:hover{
+    background-color: #888;
+}
+.online_mark{
+    border: 1px solid #8DE04A;
+    background-color: #8DE04A;
+}
+.idle_mark{
+    border: 1px solid #F49649;
+    background-color: #F49649;
+}
+#test_container #answerh {
+    display: none;
+    background-color: #2D3235;
+    color: #D6D7D8;
+}
+.qf_list {
+    background-color: #2D3235;
+}
+.qf_list:hover{
+    background-color: #444;
+}
+.qf_note {
+    background-color: #2D3235;
+    color: #D6D7D8;
+    opacity: 1;
+}
+#test_container #default {
+    background-color: #696F72;
+    color: #414649;
+}
+/* lang fams, fam */
+ 
+.lang_tree_span{
+    display: inline-block;
+    background-color: #272727;
+    border: 1px solid #202020;
+}
+.node_arrow{
+    color: #aaa;
+}
+.node{
+    background-color: #555;
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+    border: 1px solid #373737;
+    width: 100%;
+}
+.node .hidden{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    font-size: 0.8em;
+    padding: 5px;
+    width: auto !important;
+}
+.dead{
+    margin-left: 5px !important;
+    color: #d6d7d8;
+    font-size: 0.8em;
+    display: inline-block;
+}
+.unco{
+    border-color: #888 !important;
+    color: #888;
+}
+/*hover boxes*/
+/* red '!' */
+.hover_icon.warning{
+    border-color: #CE2029 !important;
+    background-color: #CE2029;
+    color: #2D3235;
+}
+.hover_icon.warning span{
+    background-color: #ED3740;
+    color: #2D3235;
+}
+/* blue '?' */
+.hover_icon.information{
+    border-color: #00A7C7 !important;
+    background-color: #00A7C7;
+    color: #2D3235;
+}
+.hover_icon.information span{
+    background-color: #2ACCC5;
+    color: #2D3235;
+}
+/* grey '*' */
+.hover_icon.dictionary{
+    margin: 0 !important;
+    border-color: #989898 !important;
+    background-color: #989898;
+    color: #2D3235;
+}
+.hover_icon.dictionary span{
+    background-color: #BFBFBF;
+    color: #2D3235;
+}
+.gloss{
+    border-bottom: #aaa 1px dotted;
+}
+.gloss:hover{
+    background-color: #474747;
+}
+.gloss:hover span{
+    padding: 10px;
+    color: #d6d7d8 !important;
+}
+.code {
+    background-color: #474747;
+}
+#light, .light{	background: #474747; }
+						.light select, .light input, .light textarea, .light span.flat_select{
+							background-color: #575757 !important;
+						}
+						.light .half{
+							display: inline-block !important; width: 45% !important; margin: 10px !important;
+						}
+						.light .under{
+							color: #999999; font-size: 0.8em;
+						}
+.wl_drop_down #wl_drop_down_scroll .list {
+    padding: 2px !important;
+    background-color: #575757;
+}
+.wl_drop_down {
+    background-color: #676767;
+}
+.wl_drop_down a {
+    color: #EB9CBB;
+}
+.wl_drop_down #wl_drop_down_scroll .list:hover {
+    background-color: #777;
+}
+.qf_container {
+    color: #D6D7D8;
+}
+.spoil {
+    background-color: #555;
+    color: #555 !important;
+}
+.spoil:hover {
+    background-color: inherit;
+    color: #D6D7D8 !important;
+}
