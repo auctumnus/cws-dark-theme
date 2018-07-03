@@ -9,7 +9,8 @@
 @license      none
 @preprocessor stylus
 ==/UserStyle== */
-@-moz-document url-prefix("https://conworkshop.com", "http://conworkshop.com") {
+@-moz-document url-prefix("https://conworkshop.com"),
+               url-prefix("http://conworkshop.com") {
 body {
     background-color: #151819;
     color: #D6D7D8;
